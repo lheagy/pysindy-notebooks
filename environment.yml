@@ -1,0 +1,14 @@
+name: pysindy
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipywidgets
+  - jupyter
+  - numpy
+  - matplotlib
+  - pip
+  - python>=3.6
+  - pip:
+    - pysindy
